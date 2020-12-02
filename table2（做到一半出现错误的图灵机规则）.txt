@@ -1,0 +1,106 @@
+q31 1 q2 b R
+q2 1 q2 1 R
+q2 0 q3 0 R
+q3 1 q4 a R
+q4 1 q5 a R
+q4 0 q11 0 R
+q5 1 q5 1 R
+q5 0 q6 0 R
+q6 1 q6 1 R
+q6 0 q7 1 R
+q7 ☐ q8 1 R
+q8 ☐ q8 0 L
+q8 1 q8 1 L
+q8 0 q9 0 L
+q9 1 q10 1 L
+q10 1 q10 1 L
+q10 a q3 a R
+q9 a q9 1 L
+q9 0 q14 0 L
+q11 1 q11 1 R
+q11 0 q12 1 R
+q12 ☐ q12 0 L
+q12 1 q12 1 L
+q12 0 q13 0 L
+q13 a q13 1 L
+q13 0 q14 0 L
+q14 b q14 1 L
+q14 ☐ qf ☐ R
+q14 1 q15 1 L
+q15 1 q15 1 L
+q15 b q16 b R
+q16 1 q17 b R
+q17 1 q18 b R
+q17 0 q1 ####### R
+q18 1 q18 1 R
+q18 0 q19 0 R
+
+q19 1 q36 a R
+q36 1 q20 a R
+q20 1 q21 a R
+q20 0 q40 0 R
+
+q21 1 q21 1 R
+q21 0 q22 0 R
+q22 1 q22 1 R
+q22 0 q23 0 L
+q22 c q27 c L
+q23 1 q23 c R
+q23 0 q23 1 R
+
+q23 ☐ q32 1 R
+q32 ☐ q33 0 L
+q33 1 q34 1 L
+q34 1 q34 1 L
+q34 c q35 1 L
+q35 c q35 1 L
+q35 0 q37 0 L
+q35 1 q39 c R
+q39 1 q39 1 R
+q39 0 q23 1 R
+q37 1 q38 1 L
+q37 a q37 1 L
+q37 0 qf 0 L
+q38 1 q38 1 L
+q38 a q36 a R
+
+q40 1 q40 1 R
+q40 0 q41 0 L
+q40 c q49 c L
+
+q41 1 q42 c R
+q42 0 q43 1 R
+q43 ☐ q43 0 L
+q43 1 q44 1 L
+q44 1 q44 1 L
+q44 c q47 1 L
+q47 c q47 1 L
+q47 1 q45 c R
+q47 0 q46 0 L
+q45 1 q45 1 R
+q45 0 q43 1 R
+q46 a q46 1 L
+q46 0 qf 0 L
+
+
+q0 0 q24 0 R
+q24 0 q25 0 L
+q25 0 q25 0 L
+q25 ☐ qf_1 ☐ R
+
+q24 1 q26 1 L
+q26 0 q26 0 L
+q26 ☐ qf_2 ☐ R
+
+q0 1 q27 1 R
+q27 1 q27 1 R
+q27 0 q28 0 R
+q28 0 q29 0 L
+q29 0 q29 0 L
+q29 1 q29 1 L
+q29 ☐ qf_3 ☐ R
+
+q28 1 q30 1 L
+q30 1 q30 1 L
+q30 0 q30 0 L
+q30 ☐ q31 ☐ R

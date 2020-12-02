@@ -1,0 +1,53 @@
+q0 l0 m0 n0 1 0 0 0 q0 l0 m0 n0 1 0 0 0 S R R S
+q0 l0 m0 n0 1 ☐ 0 0 q0 l0 m0 n0 1 ☐ 0 0 S R R S
+q0 l0 m0 n0 1 0 ☐ 0 q0 l0 m0 n0 1 0 0 0 S R R S
+
+q0 l0 m0 n0 1 0 0 1 q0 l0 m0 n0 1 0 1 0 S R R S
+q0 l0 m0 n0 1 ☐ 0 1 q0 l0 m0 n0 1 ☐ 1 0 S R R S
+q0 l0 m0 n0 1 0 ☐ 1 q0 l0 m0 n0 1 0 1 0 S R R S
+
+q0 l0 m0 n0 1 0 1 0 q0 l0 m0 n0 1 0 1 0 S R R S
+q0 l0 m0 n0 1 ☐ 1 0 q0 l0 m0 n0 1 ☐ 1 0 S R R S
+
+q0 l0 m0 n0 1 0 1 1 q0 l0 m0 n0 1 0 0 1 S R R S
+q0 l0 m0 n0 1 ☐ 1 1 q0 l0 m0 n0 1 ☐ 0 1 S R R S
+
+q0 l0 m0 n0 1 1 0 0 q0 l0 m0 n0 1 1 1 0 S R R S
+q0 l0 m0 n0 1 1 ☐ 0 q0 l0 m0 n0 1 1 1 0 S R R S
+
+q0 l0 m0 n0 1 1 0 1 q0 l0 m0 n0 1 1 0 1 S R R S
+q0 l0 m0 n0 1 1 ☐ 1 q0 l0 m0 n0 1 1 0 1 S R R S
+
+q0 l0 m0 n0 1 1 1 0 q0 l0 m0 n0 1 1 0 1 S R R S
+q0 l0 m0 n0 1 1 1 1 q0 l0 m0 n0 1 1 1 1 S R R S
+q0 l0 m0 n0 1 ☐ ☐ 0 q0 l2 m2 n2 1 ☐ ☐ 0 S L L S
+q0 l0 m0 n0 1 ☐ ☐ 1 q0 l2 m2 n2 1 ☐ 1 0 S L L S
+
+q0 l2 m2 n2 1 x x 0 q0 l2 m2 n2 1 x x 0 S L L S
+q0 l2 m2 n2 1 ☐ ☐ 0 q1 l1 m1 n1 1 ☐ ☐ 0 R R R S
+
+
+q0 l0 m0 n0 0 x x x q1 l1 m1 n1 0 x x x R S S S
+
+
+q1 l1 m1 n1 x x x x q1 l1 m1 n1 x x x x S L S S
+q1 l1 m1 n1 x ☐ x x q0 l0 m0 n0 x 0 x x S S S S
+
+
+q1 l1 m1 n1 ☐ x x x q2 l1 m1 n1 ☐ x x x L S S S
+q2 l1 m1 n1 x x x x q2 l1 m1 n1 x x x x L S S S
+q2 l1 m1 n1 ☐ x x x qf l1 m1 n1 ☐ x x x R S S S
+
+
+qs l0 m0 n0 0 0 0 0 q3 l0 m0 n0 0 0 0 0 R R S S
+q3 l0 m0 n0 ☐ ☐ 0 0 qf_1 l0 m0 n0 ☐ ☐ 0 0 L L S S
+q3 l0 m0 n0 ☐ x 0 0 qf_2 l0 m0 n0 ☐ 0 0 0 L L S S
+q3 l0 m0 n0 x ☐ 0 0 qf_3 l0 m0 n0 0 ☐ 0 0 L L S S
+q3 l0 m0 n0 x x 0 0 q0 l0 m0 n0 x x 0 0 L L S S
+qs l0 m0 n0 1 0 0 0 q4 l0 m0 n0 1 0 0 0 S R S S
+q4 l0 m0 n0 1 ☐ 0 0 qf_3 l0 m0 n0 1 ☐ 0 0 S L S S
+q4 l0 m0 n0 1 x 0 0 q0 l0 m0 n0 1 x 0 0 S L S S
+qs l0 m0 n0 0 1 0 0 q5 l0 m0 n0 0 1 0 0 R S S S
+q5 l0 m0 n0 ☐ 1 0 0 qf_2 l0 m0 n0 ☐ 1 0 0 L S S S
+q5 l0 m0 n0 x 1 0 0 q0 l0 m0 n0 x 1 0 0 L S S S
+qs l0 m0 n0 1 1 0 0 q0 l0 m0 n0 1 1 0 0 S S S S
