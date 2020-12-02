@@ -5,4 +5,4 @@
 ## - Multiplication
 ### Using binary numbers to represent the multiplier and the multiplicand.
 ### Using a four tracks Turing machine.
-## The file includes the program and transfer function.
+##-  The file includes the program and transfer function.
